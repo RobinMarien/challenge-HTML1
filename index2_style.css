@@ -1,8 +1,10 @@
+    
 body {
     margin: 0;
     padding: 0;
     font-family: Arial, Helvetica, sans-serif;
-    background-color: #d0d0d0;
+    background-color: black;
+    color:white;
 }
 
 .section{
@@ -12,6 +14,7 @@ body {
     border-radius: 10px;
     padding: 10px;
     text-align: center;
+    background-image: linear-gradient(#d41100,#000);
 }
 
 ul {
@@ -22,24 +25,22 @@ ul {
 }
 
 .highlight{
-    color:#e8491d;
+    color: #d00;
     font-weight:bold;
 }
 
-.dark{
-    background:#35424a;
+.bar{
+    background-image: radial-gradient(#551100 7%, #d41100 10%, black 40%);
     color:#fff;
     text-align:center;
-    text-decoration:underline;
-    text-decoration-color: #e8491d;
     padding-bottom: 5px;
 }
 
 header{
-    background:#35424a;
+    background-image: radial-gradient(circle, #d41100,#000);
     color:#fff;
     padding-top:30px;
-    border-bottom: 5px solid #e8491d;
+    border-bottom: 5px solid #96160a;
     text-align:center;
 }
 
@@ -53,7 +54,7 @@ header img{
     margin-left: 20px;
     width: 200px;
     border-radius: 50%;
-    border: 3px solid #e8491d;
+    border: 3px solid #4f0902;
 }
 table {
     width: 100%;
@@ -65,7 +66,7 @@ table.center {
 
 
 th {
-    height: 50px;
+    height: 20px;
     font-weight:bold;
 }
 
@@ -75,11 +76,11 @@ td {
 }
 
 footer{
-    background:#35424a;
+    background-image: radial-gradient(circle, #d41100,#000);
     color:#fff;
     padding-bottom:10px;
     margin-top: 30px;
-    border-top: 5px solid #e8491d;
+    border-top: 5px solid #96160a;
     text-align:center;
     font-size: 20px;
     text-transform: uppercase;
@@ -90,5 +91,5 @@ footer a{
 }
 
 footer a:hover{
-    color: #e8491d;
+    color: #4f0902;
 }
